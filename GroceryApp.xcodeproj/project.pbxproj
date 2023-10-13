@@ -11,6 +11,9 @@
 		E392D8C12AD5BCB6005C8AAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392D8C02AD5BCB6005C8AAD /* ContentView.swift */; };
 		E392D8C32AD5BCB7005C8AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E392D8C22AD5BCB7005C8AAD /* Assets.xcassets */; };
 		E392D8C62AD5BCB7005C8AAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E392D8C52AD5BCB7005C8AAD /* Preview Assets.xcassets */; };
+		E392D8CE2AD8A9FA005C8AAD /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392D8CD2AD8A9FA005C8AAD /* RegistrationScreen.swift */; };
+		E392D8D12AD8ACE9005C8AAD /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392D8D02AD8ACE9005C8AAD /* String+Extensions.swift */; };
+		E392D8D42AD8D5BC005C8AAD /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392D8D32AD8D5BC005C8AAD /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E392D8C02AD5BCB6005C8AAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E392D8C22AD5BCB7005C8AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E392D8C52AD5BCB7005C8AAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E392D8CD2AD8A9FA005C8AAD /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
+		E392D8D02AD8ACE9005C8AAD /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E392D8D32AD8D5BC005C8AAD /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		E392D8BD2AD5BCB6005C8AAD /* GroceryApp */ = {
 			isa = PBXGroup;
 			children = (
+				E392D8D22AD8D5A9005C8AAD /* Client */,
+				E392D8CF2AD8ACC4005C8AAD /* Extensions */,
+				E392D8CC2AD8A9E9005C8AAD /* Screens */,
 				E392D8BE2AD5BCB6005C8AAD /* GroceryAppApp.swift */,
 				E392D8C02AD5BCB6005C8AAD /* ContentView.swift */,
 				E392D8C22AD5BCB7005C8AAD /* Assets.xcassets */,
@@ -65,6 +74,30 @@
 				E392D8C52AD5BCB7005C8AAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E392D8CC2AD8A9E9005C8AAD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E392D8CD2AD8A9FA005C8AAD /* RegistrationScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E392D8CF2AD8ACC4005C8AAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E392D8D02AD8ACE9005C8AAD /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E392D8D22AD8D5A9005C8AAD /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				E392D8D32AD8D5BC005C8AAD /* HTTPClient.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E392D8D12AD8ACE9005C8AAD /* String+Extensions.swift in Sources */,
+				E392D8D42AD8D5BC005C8AAD /* HTTPClient.swift in Sources */,
+				E392D8CE2AD8A9FA005C8AAD /* RegistrationScreen.swift in Sources */,
 				E392D8C12AD5BCB6005C8AAD /* ContentView.swift in Sources */,
 				E392D8BF2AD5BCB6005C8AAD /* GroceryAppApp.swift in Sources */,
 			);
